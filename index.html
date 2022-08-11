@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Garabato</title>
+    <link rel="stylesheet" href="style.css">  
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/19e91fe869.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="icon" href="icono.png" type="image/gif">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">Garabato</h1>
+        </header>
+
+        <main>
+            <div class="opciones">
+                <input id="selectColor" type="color" value="#923456"/>
+                <button id="botonColor">Monocromático</button>
+                <button id="botonArcoiris">Arcoiris</button>
+                <button id="botonBorrar">Borrar</button>
+                <button id="botonLimpiar">Limpiar</button>
+                <div class="valor-tamano" id="valorTamano">16 x 16</div>
+                <input id="barraTamano" type="range" value="64" min="1" max="128" />                
+            </div>
+            <div class="cuadricula" id="cuadricula"></div>
+        </main>           
+
+        <script src="script.js"></script>
+    </body>
+</html>
